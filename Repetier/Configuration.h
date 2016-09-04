@@ -68,7 +68,7 @@
 #define YAXIS_STEPS_PER_MM 35.56
 #define ZAXIS_STEPS_PER_MM 533.33
 #define EXTRUDER_FAN_COOL_TEMP 50
-#define PDM_FOR_EXTRUDER 0
+#define PDM_FOR_EXTRUDER 1
 #define PDM_FOR_COOLER 0
 #define DECOUPLING_TEST_MAX_HOLD_VARIANCE 20
 #define DECOUPLING_TEST_MIN_TEMP_RISE 1
@@ -988,7 +988,7 @@ Values must be in range 1..255
     "heaterPWMSpeed": 0,
     "featureBabystepping": "1",
     "babystepMultiplicator": 1,
-    "pdmForHeater": "0",
+    "pdmForHeater": "1",
     "pdmForCooler": "0",
     "psOn": -1,
     "mixingExtruder": "0",
