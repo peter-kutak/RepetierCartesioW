@@ -73,9 +73,14 @@
 #define ORIG_E1_DIR_PIN     62
 #define ORIG_E1_ENABLE_PIN  60
 
-#define ORIG_E2_STEP_PIN    15
-#define ORIG_E3_DIR_PIN     14
-#define ORIG_E4_ENABLE_PIN  16
+//14+15 Serial3 pouzijem na Bluetooth; aj tak nemam Extruder3;
+//povodne som chcel pouzit 0+1 ale tam nieco drzi RX hore a nedokazem ho vynulovat, hoci podla schemy by programovaci port nemal robit problem
+//#define ORIG_E2_STEP_PIN    15
+#define ORIG_E2_STEP_PIN    -1
+//#define ORIG_E2_DIR_PIN     14
+#define ORIG_E2_DIR_PIN     -1
+//#define ORIG_E2_ENABLE_PIN  16
+#define ORIG_E2_ENABLE_PIN  -1
 
 #define SDPOWER      -1
 // 10 if using HW SPI. 53 if using SW SPI
