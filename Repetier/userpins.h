@@ -27,11 +27,13 @@
 
 //pin40 ma niaky problem; enable nepotrebujem tak som pouzil 41 namiesto 40
 //problem je ze 40 pripojena zem sposobje niaku chybu(beep) a navrat Z motora; chcelo by to zatial aspon pull-up
-#define ORIG_Z_STEP_PIN     41//40
+//40
+#define ORIG_Z_STEP_PIN     41
 #define ORIG_Z_DIR_PIN      48
 #define ORIG_Z_MIN_PIN      42
 #define ORIG_Z_MAX_PIN      -1
-#define ORIG_Z_ENABLE_PIN   -1//41
+//41
+#define ORIG_Z_ENABLE_PIN   -1
 
 //analogove piny treba uvadzat vo forme kanalu
 //http://www.avrfreaks.net/forum/arduino-due-adc-channel-sequence
